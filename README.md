@@ -35,7 +35,7 @@
 |[**PRP201c**](2021_Semester_3_Fall2021/PRP201c_DinhMH)|Python programming (Coursera)|
 |------------|[Semester 4 - SPRING 2022](/2022_Semester_4_Spring2022)|------------|
 |[**MAI391**](2022_Semester_4_Spring2022/MAI391_HuynhTT)|Mathematics for Machine Learning|[Video](https://www.youtube.com/playlist?list=PL9gxqL8h2eMoA0vPPkSMDse6LWDCd3eDt)|
-|[**MAS291**](2022_Semester_4_Spring2022/MAS291_TienNV55)|Probability & statistics|
+|[**MAS291**](2022_Semester_4_Spring2022/MAS291_TienNV55)|Probability & statistics| [Formula](https://thepkz.github.io/minthep-portfolio/blog/textblog-3.html) |
 |[**JPD123**](2022_Semester_4_Spring2022/JPD123_KieuTA)|Japanese Elementary 1-A1.2|[Video](https://www.youtube.com/playlist?list=PL9gxqL8h2eMp0BsjniAPUE3F23MONAG8d)|
 |[**IOT102**]()|Internet of Things|
 |[**AIG201c**]()|Artificial Intelligence (Coursera)|
