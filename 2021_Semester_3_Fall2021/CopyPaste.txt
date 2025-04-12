@@ -1,0 +1,57 @@
+DISTINCT: bỏ các phần tử trùng lặp 
+AS: dùng để đặt tên cho đối tượng
+
+ORDER BY: sắp xếp các phần tử theo tăng hay giảm {
+	ORDER BY price DESC | ASC;
+}
+
+AND: gộp điều kiện thực hiện nếu tất cả điều kiện đúng 
+OR: gộp điều kiện thực hiện nếu một trong 2 điều kiện đúng
+
+INSERT INTO: thêm cột mới vào bảng
+VALUES: thêm kết quả vào cột 
+INSERT INTO students (name, id, address)
+VALUES (VuongVN, SE184808, conc);
+
+IS NULL: kiểm tra xem phần tử đó hay cột đó có các giá trị null hay không
+IS NOT NULL: ngược lại với IS NULL
+SELECT * FROM students
+WHERE name IS NULL; // kiểm tra cột name có null hay không
+
+UPDATE: chọn bảng để cập nhật
+SET: chọn cột để cập nhật
+WHERE: cho điều kiện để cập nhật
+UPDATE Students // chọn bảng students
+SET name = 'ThinhNgu' // set lại name là ThinhNgu
+WHERE id = se187477; // điều kiện để có thể set được name là mã số phải bằng se187477
+
+DELETE FROM: tương tự những ngược lại với UPDATE
+DELETE FROM students 
+WHERE name = 'ThinhNgu';
+
+SELECT TOP: chọn ra số phần tử nhất định(có thể kết hợp với các điều kiện hay sắp xếp tăng giảm)
+SELECT * // chọn tất cả từ bảng students 
+FROM students
+LIMIT 3;// lấy ra 3 phần tử đầu
+SELECT còn có MIN, MAX, COUNT, SUM, AVG 
+
+MIN MAX: trả về phần tử nhỏ nhất hay lớn nhất 
+COUNT: trả về số lượng phần tử của hàng khớp với 1 tiêu chí cụ thể
+SUM: cộng tất cả số trong cột theo tiêu chí cụ thể
+AVG: tính trung bình của các phần tử trong cột
+SELECT biểu thức()
+FROM bảng
+WHERE điều kiện;
+
+LIKE: chọn ra một chuỗi khớp với mẫu
+%: cho 0 hoặc nhiều kí tự
+-: cho 1 kí tự
+
+SELECT name
+FROM students
+WHERE LIKE 'T%' // tất cả những thằng bắt đầu bằng T
+	   '%T' // tất cả những thằng kết thúc bằng T
+	   '%T%' // tất cả những thằng có chứa t
+	   'T_ _ _ _' // những thằng có tên bắt đầu là T và có 4 kí tự theo sau
+Có thể kết hợp start with và end with với nhau
+NOT LIKE: không có kí tự đó
